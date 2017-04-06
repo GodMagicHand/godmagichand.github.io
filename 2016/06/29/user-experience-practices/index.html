@@ -91,7 +91,19 @@
             <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="false" />
             <i class="fa fa-times" onclick="resetSearch()"></i>
             </form>
-            <div id="local-search-result"></div>
+            <div id="local-search-result">
+              一、环境描述：
+              1、系统：Linux——Centos6.4
+              2、Redis:3.0.7版本(据官方描述，3.0.6为当前最稳定版本，本人选用3.0.7差别不大，建议别选最新版本)
+              3、操作：纯命令行下操作
+              1、下载安装redis3.0.7
+              1)从官网下载 http://download.redis.io/releases/redis-3.0.7.tar.gz
+              2)在linux命令行下指令下载:
+              wget http://download.redis.io/releases/redis-3.0.7.tar.gz
+              (两种本人都经过亲身测试，上面一种较为简单，下面以第二种为例)
+              2、解压redis3.0.7
+              tar -zxvf redis-3.0.7.tar.gz
+            </div>
             <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
             <div id="switch-btn" class="switch-btn">
                 <div class="icon">
@@ -143,7 +155,7 @@
       <nav id="mobile-nav">
       <div class="overlay">
           <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">MOxFIVE</a></h1>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Kingkong</a></h1>
       </div>
     <div class="intrude-less">
         <header id="header" class="inner">
@@ -151,7 +163,7 @@
                 <img src="/resources/Mihawk.png" class="animated zoomIn">
             </a>
             <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">MOxFIVE</a></h1>
+              <h1 class="header-author"><a href="/" title="回到主页">Kingkong</a></h1>
             </hgroup>
 
             <p class="header-subtitle">JAVA攻城狮！</p>
@@ -419,10 +431,6 @@
             <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
             <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
         </div>
-        <script>
-            window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"图解网页设计！125个小优化提升网页可用性　| MOxFIVE's Blog　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
-        </script>
     </div>
 
 
@@ -431,7 +439,7 @@
 
       <div class="duoshuo" id="comments">
     <div id="comment-box" ></div>
-    <div class="ds-thread" id="ds-thread" data-thread-key="2016/06/29/user-experience-practices/" data-title="基于centos6.4下redis3.0.7集群搭建" data-url="http://MOxFIVE.xyz/2016/06/29/user-experience-practices/"></div>
+    <div class="ds-thread" id="ds-thread" data-thread-key="2016/06/29/user-experience-practices/" data-title="基于centos6.4下redis3.0.7集群搭建" data-url="http://GodMagicHand.github.io/2016/06/29/user-experience-practices/"></div>
     <script>
         var duoshuoQuery = {short_name:"moxfive"};
         function loadComment() {
@@ -520,9 +528,6 @@
             <div class="footer-left">
                 <i class="fa fa-copyright"></i>
                 2015-2016 kingkong
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题 v3.5">Yelee</a><span> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
             </div>
         </div>
 
